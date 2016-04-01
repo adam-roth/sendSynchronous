@@ -15,7 +15,7 @@ Just copy the source files into your iOS project.
 
 That should be it.  Nothing fancy here.  
 
-Though note that this code was written and tested against iOS 9.  Your mileage may vary on previous iOS versions.  Though there's no reason to use this library with iOS versions prior to 9 in the first place.
+Though note that this code was written and tested against iOS 9.  Your mileage may vary on previous iOS versions.  However there's no reason to use this library with iOS versions prior to 9 in the first place.
 
 
 ### Usage
