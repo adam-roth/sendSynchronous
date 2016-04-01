@@ -23,7 +23,7 @@ Though note that this code was written and tested against iOS 9.  Your mileage m
 To use this category, you must do two things:
 
 1.  Import the header file, like:<pre>
-\#import &lt;NSURLSession+SynchronousRequest.h&gt;
+\#import "NSURLSession+SynchronousRequest.h"
 </pre>  Note that you only need to do this within the classes that contain your networking code, naturally.
 
 2.  Replace every instance of `[NSURLConnection sendSynchronousRequest:returningResponse:error]` in your code with calls to `[NSURLSession sendSynchronousRequest:returningResponse:error]`.  That's it.  None of your other code should need to be changed, and you can enjoy your freedom from deprecation warnings in XCode.
