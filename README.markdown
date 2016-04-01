@@ -6,7 +6,7 @@
 
 This project provides a category on the `NSUrlSession` class that restores the ability to dispatch synchronous requests, after the existing synchronous networking API's were deprecated in iOS 9.
 
-It can be used as drop-in replacement for existing `[NSUrlConnection sendSynchronousRequest: ...]` calls, allowing you to clean up any deprecation wanrings in your existing codebase without having to fundamentally restructure your entire app.
+It can be used as drop-in replacement for existing `[NSUrlConnection sendSynchronousRequest: ...]` calls, allowing you to clean up any deprecation warnings in your existing codebase without having to fundamentally restructure your entire app.
 
 
 ### Getting Started
