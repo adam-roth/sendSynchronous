@@ -21,7 +21,7 @@ static BOOL allowAnySSL = NO;
     if (allow) {
         NSLog(@"WARN:  Allowing connections to invalid SSL certificates is a security risk, and should never be enabled in a production application!");
     }
-    allowAnySSL = YES;
+    allowAnySSL = allow;
 }
 
 - (void)URLSession:(NSURLSession *)session didReceiveChallenge:(NSURLAuthenticationChallenge *)challenge completionHandler:(void (^)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler {
