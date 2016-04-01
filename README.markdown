@@ -31,7 +31,7 @@ To use this category, you must do two things:
 
 ### Limitations
 
-In keeping with the rationale behind Apple's decision to deprecate synchronous network requests (namely, that developers just plain can't be trusted to properly background their blocking I/O operations), this category will not allow your to create synchronous network requests on the main thread.  
+In keeping with the rationale behind Apple's decision to deprecate synchronous network requests (namely, that developers just plain can't be trusted to properly background their blocking I/O operations), this category will not allow you to create synchronous network requests on the main thread.  
 
 If you're not properly backgrounding your network requests, you'll either need to start doing so, switch to using asynchronous API's, or if you're really set on doing it the wrong way, manually modify the category code to allow outbound requests on the main thread.
 
